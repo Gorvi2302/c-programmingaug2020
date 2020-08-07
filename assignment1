@@ -1,0 +1,27 @@
+//c++program to find the size of char,int,float,double
+
+#include<iostream>
+using namespace std;
+int main()
+{
+cout<<"Size of char: "<<sizeof(char) <<" bytes\n";
+cout<<"Size of int: "<<sizeof(int) <<" bytes\n";
+cout<<"Size of float: "<<sizeof(float) <<" bytes\n";
+cout<<"Size of double: "<<sizeof(double) <<"bytes";
+return 0;
+}
+
+
+//c++ program to find the product of two numbers entered by the user
+
+#include<iostream>
+using namespace std;
+int main()
+{
+float a,b;
+cout<<"Enter two numbers:";
+cin>>a;
+cin>>b;
+cout<<"Product=" <<a*b ;
+return 0;
+}
